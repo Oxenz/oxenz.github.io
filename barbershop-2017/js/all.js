@@ -30,6 +30,7 @@ var $close2 = document.querySelector(".close2");
 
 
 	$btn_map.addEventListener("click", function() {
+		event.preventDefault();
 		$modal_map.classList.add("open-popup");
 		$overlay.style.display = "block";
 	});
