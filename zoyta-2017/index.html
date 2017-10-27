@@ -13,15 +13,17 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 	<link rel="manifest" href="manifest.json">
-	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#65d55b">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
-
 </head>
+
 <body>
 <header class='header'>
 	<nav class='main-nav'>
+		<input id='mobile-menu' type='checkbox' />
+		<label class='mobile-menu' for='mobile-menu'></label>
 		<ul class='main-nav__list'>
-			<li><h1 class='main-nav__caption-img'><img class='logotype' src='img/logo-zoyta.svg' alt='Zoyta the world market leader in the provision of entertainment' /></h1></li>
+			<li><h1 class='main-nav__caption-img'><object class='logotype' type="image/svg+xml" data="img/logo-zoyta.svg">Zoyta the world market leader in the provision of entertainment</object></h1></li>
 			<li><a class='main-nav__link' href='#'>Reality</a></li>
 			<li><a class='main-nav__link' href='#'>Living</a></li>
 			<li><a class='main-nav__link' href='#'>Education</a></li>
@@ -32,6 +34,7 @@
 				<button class="btn  btn__login">Login<svg class='main-nav__user'><use xlink:href="svg-sprites/sprite-symbol.svg#user"></use></svg></button>
 			</li>
 		</ul>
+
 	</nav>
 </header>
 
@@ -58,11 +61,12 @@
 				</select>
 				<svg class='svg-button  svg-button--SIZE  search__arrow-down'><use xlink:href="svg-sprites/sprite-symbol.svg#arrow-down"></use></svg>
 			</div>
-			<input class='search-form__select  search-form__input' name='search-text' placeholder='Kyeword, name, date, time...'>
-			<button class='btn  btn-ellipse' type='submit' value='search'>Search</button>
+			<input class='search-form__select  search-form__input' name='search-text' autocomplete='off' placeholder='Kyeword, name, date, time...'>
+			<button class='btn  btn-ellipse  btn-ellipse--search' type='submit' value='search'>Search</button>
 		</form>
 	</div>
 </section>
+
 
 <aside class='filter'>
 	<div class='filter__inner'>
@@ -120,352 +124,349 @@
 	</div>
 </aside>
 
-<!-- START-OFFER -->
-
 <main class='offer'>
-	<section class='offer__box  offer__box--house'>
-		<div class='offer__price'>$2,990</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/h7.jpg' alt='Image cute hostel 1'>
-		</div>
+	<div class='offer__inner'>
+		<section class='offer__box  offer__box--house'>
+			<div class='offer__price'>$2,990</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/h7.jpg' alt='Image cute hostel 1'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--house'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>2 bedroom house for rent in Dubai</h2>
+			<div class='offer__type'>Vision Agency</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(365)</span>
+			</div>
+		</section>
 
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--house'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
-			</svg>
-		</div>
+		<section class='offer__box  offer__box--music'>
+			<div class='offer__price'>€750</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/m1.jpg' alt='Image cute music party 1'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--music'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>Beach party festival 2017</h2>
+			<div class='offer__type'>Long Beach</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(1167)</span>
+			</div>
+		</section>
 
-		<h2 class='offer__caption'>2 bedroom house for rent in Dubai</h2>
-		<div class='offer__type'>Vision Agency</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(365)</span>
-		</div>
-	</section>
+		<section class='offer__box  offer__box--train'>
+			<div class='offer__price'>$290</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/a1.jpg' alt='Image cute Museum 1'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg--train'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#train'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>Modern Art Museum</h2>
+			<div class='offer__type'>Transport trip </div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(477)</span>
+			</div>
+		</section>
 
-	<section class='offer__box  offer__box--music'>
-		<div class='offer__price'>€750</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/m1.jpg' alt='Image cute music party 1'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--music'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Beach party festival 2017</h2>
-		<div class='offer__type'>Long Beach</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(1167)</span>
-		</div>
-	</section>
-
-	<section class='offer__box  offer__box--train'>
-		<div class='offer__price'>$290</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/a1.jpg' alt='Image cute Museum 1'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg--train'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#train'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Modern Art Museum</h2>
-		<div class='offer__type'>Transport trip </div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(477)</span>
-		</div>
-	</section>
-
-	<section class='offer__box  offer__box--house'>
-		<div class='offer__price'></div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/h5.jpg' alt='Image cute hostel 2'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--house'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Gangplank Location for 20 people</h2>
-		<div class='offer__type'>Coworking Room</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(121)</span>
-		</div>
-	</section>
+		<section class='offer__box  offer__box--house'>
+			<div class='offer__price'></div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/h5.jpg' alt='Image cute hostel 2'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--house'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>Gangplank Location for 20 people</h2>
+			<div class='offer__type'>Coworking Room</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(121)</span>
+			</div>
+		</section>
 
 
-	<section class='offer__box-extended  offer__box--music'>
-		<div class='offer__price'>$1,105</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/m-f-1.jpg' alt='Image cute music party 2'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--music'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
-			</svg>
-		</div>
-		<h2 class='offer__type-extended'>Space Amnesia</h2>
-		<div class='offer__raiting--small'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(4321)</span>
-		</div>
-		<div class='offer__comments'>
-			<div class='offer__comments-left'>
-				<div class='offer__portret-wrapper'>
-					<img class='offer__portret' src='img/author1.png' alt='Avatar author Lusy' />
+		<section class='offer__box-extended  offer__box--music'>
+			<div class='offer__price'>$1,105</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/m-f-1.jpg' alt='Image cute music party 2'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--music'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
+				</svg>
+			</div>
+			<h2 class='offer__type-extended'>Space Amnesia</h2>
+			<div class='offer__raiting--small'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(4321)</span>
+			</div>
+			<div class='offer__comments'>
+				<div class='offer__comments-left'>
+					<div class='offer__portret-wrapper'>
+						<img class='offer__portret' src='img/author1.png' alt='Avatar author Lusy' />
+					</div>
+				</div>
+				<div class='offer__comments-right'>
+					<div class='offer__raiting--big'>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+					</div>
+					<div class='offer__author'>Lusy-P</div>
+					<div class='offer__comment'><p>“It was interesting to see, thanks! Last year my name was, but at the last moment changed my mind and did not go”</p><a class='offer__link-more' href='#Lusy'><span>...read more</span></a></div>
 				</div>
 			</div>
-			<div class='offer__comments-right'>
-				<div class='offer__raiting--big'>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-				</div>
-				<div class='offer__author'>Lusy-P</div>
-				<div class='offer__comment'><p>“It was interesting to see, thanks! Last year my name was, but at the last moment changed my mind and did not go”</p><a class='offer__link-more' href='#Lusy'><span>...read more</span></a></div>
+		</section>
+
+		<section class='offer__box-extended  offer__box--house'>
+			<div class='offer__priceMOD'></div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/h-f-1.jpg' alt='Image cute hostel 3'>
 			</div>
-		</div>
-	</section>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--house'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
+				</svg>
+			</div>
+			<h2 class='offer__type-extended'>Vision Agency</h2>
+			<div class='offer__raiting--small'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(417)</span>
+			</div>
+			<div class='offer__comments'>
+				<div class='offer__comments-left'>
+					<div class='offer__portret-wrapper'>
+						<img class='offer__portret' src='img/author2.png' alt='Avatar author Peter' />
+					</div>
+				</div>
+				<div class='offer__comments-right'>
+					<div class='offer__raiting--big'>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+					</div>
+					<div class='offer__author'>Peter-D</div>
+					<div class='offer__comment'>
+						<p>“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”</p><a class='offer__link-more' href='#Peter'><span>...read more</span></a></div>
+					</div>
+				</div>
+		</section>
 
-	<section class='offer__box-extended  offer__box--house'>
-		<div class='offer__priceMOD'></div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/h-f-1.jpg' alt='Image cute hostel 3'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--house'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
-			</svg>
-		</div>
-		<h2 class='offer__type-extended'>Vision Agency</h2>
-		<div class='offer__raiting--small'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(417)</span>
-		</div>
-		<div class='offer__comments'>
-			<div class='offer__comments-left'>
-				<div class='offer__portret-wrapper'>
-					<img class='offer__portret' src='img/author2.png' alt='Avatar author Peter' />
+
+		<section class='offer__box  offer__box--house'>
+			<div class='offer__price'>€650</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/h1.jpg' alt='Image cute hostel 4'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--house'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>A spacious, not noisy place in the center</h2>
+			<div class='offer__type'>VISION AGENCY</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(1443)</span>
+			</div>
+		</section>
+
+		<section class='offer__box  offer__box--music'>
+			<div class='offer__price'></div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/m2.jpg' alt='Image custom party 1'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--music'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>Become the creator of your emotions</h2>
+			<div class='offer__type'>Custom Party</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(765)</span>
+			</div>
+		</section>
+
+		<section class='offer__box  offer__box--train'>
+			<div class='offer__price'>$1600</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/h3.jpg' alt='Image modern business 1'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg--train'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#train'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>Creative business master classes</h2>
+			<div class='offer__type'>Transport Trip</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(2345)</span>
+			</div>
+		</section>
+
+		<section class='offer__box  offer__box--house'>
+			<div class='offer__price'></div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/h4.jpg' alt='Image cute hostel 5'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--house'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>Vintage and cozy corner on Deira</h2>
+			<div class='offer__type'>VISION AGENCY</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(1601)</span>
+			</div>
+		</section>
+
+
+		<section class='offer__box-extended  offer__box--music'>
+			<div class='offer__price'>$3,370</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/m-f-2.jpg' alt='Image club party 1'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--music'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
+				</svg>
+			</div>
+			<h2 class='offer__type-extended'>Space Amnesia</h2>
+			<div class='offer__raiting--small'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(2525)</span>
+			</div>
+			<div class='offer__comments'>
+				<div class='offer__comments-left'>
+					<div class='offer__portret-wrapper'>
+						<img class='offer__portret' src='img/author3.png' alt='Avatar author Mark' />
+					</div>
+				</div>
+				<div class='offer__comments-right'>
+					<div class='offer__raiting--big'>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+						<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+					</div>
+					<div class='offer__author'>Mark-A</div>
+					<div class='offer__comment'><p>“It was unforgettable, so many masters of the genre and all in one place, I wait for the next rave more than birthday”</p><a class='offer__link-more' href='#Mark'><span>...read more</span></a></div>
 				</div>
 			</div>
-			<div class='offer__comments-right'>
-				<div class='offer__raiting--big'>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-				</div>
-				<div class='offer__author'>Peter-D</div>
-				<div class='offer__comment'>
-					<p>“Aliquam quis pulvinar purus. Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. Duis mattis sagittis fringilla.”</p><a class='offer__link-more' href='#Peter'><span>...read more</span></a></div>
+		</section>
+
+		<section class='offer__box  offer__box--house'>
+			<div class='offer__price'>$1700</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/h2.jpg' alt='Image cute hostel 6'>
 			</div>
-		</div>
-	</section>
-
-
-	<section class='offer__box  offer__box--house'>
-		<div class='offer__price'>€650</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/h1.jpg' alt='Image cute hostel 4'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--house'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>A spacious, not noisy place in the center</h2>
-		<div class='offer__type'>VISION AGENCY</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(1443)</span>
-		</div>
-	</section>
-
-	<section class='offer__box  offer__box--music'>
-		<div class='offer__price'></div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/m2.jpg' alt='Image custom party 1'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--music'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Become the creator of your emotions</h2>
-		<div class='offer__type'>Custom Party</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(765)</span>
-		</div>
-	</section>
-
-	<section class='offer__box  offer__box--train'>
-		<div class='offer__price'>$1600</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/h3.jpg' alt='Image modern business 1'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg--train'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#train'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Creative business master classes</h2>
-		<div class='offer__type'>Transport Trip</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(2345)</span>
-		</div>
-	</section>
-
-	<section class='offer__box  offer__box--house'>
-		<div class='offer__price'></div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/h4.jpg' alt='Image cute hostel 5'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--house'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Vintage and cozy corner on Deira</h2>
-		<div class='offer__type'>VISION AGENCY</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(1601)</span>
-		</div>
-	</section>
-
-
-	<section class='offer__box-extended  offer__box--music'>
-		<div class='offer__price'>$3,370</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/m-f-2.jpg' alt='Image club party 1'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--music'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
-			</svg>
-		</div>
-		<h2 class='offer__type-extended'>Space Amnesia</h2>
-		<div class='offer__raiting--small'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(2525)</span>
-		</div>
-		<div class='offer__comments'>
-			<div class='offer__comments-left'>
-				<div class='offer__portret-wrapper'>
-					<img class='offer__portret' src='img/author3.png' alt='Avatar author Mark' />
-				</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--house'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
+				</svg>
 			</div>
-			<div class='offer__comments-right'>
-				<div class='offer__raiting--big'>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-					<svg class="svg-star  svg-star--big  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-				</div>
-				<div class='offer__author'>Mark-A</div>
-				<div class='offer__comment'><p>“It was unforgettable, so many masters of the genre and all in one place, I wait for the next rave more than birthday”</p><a class='offer__link-more' href='#Mark'><span>...read more</span></a></div>
+			<h2 class='offer__caption'>Ecological room with windows on Bur Dubai</h2>
+			<div class='offer__type'>VISION AGENCY</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(778)</span>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class='offer__box  offer__box--house'>
-		<div class='offer__price'>$1700</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/h2.jpg' alt='Image cute hostel 6'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--house'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#house'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Ecological room with windows on Bur Dubai</h2>
-		<div class='offer__type'>VISION AGENCY</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(778)</span>
-		</div>
-	</section>
-
-	<section class='offer__box  offer__box--music'>
-		<div class='offer__price'>$350</div>
-		<div class='offer__img-wrapper'>
-			<img class='offer__img' src='img/m3.jpg' alt='Image cute music party 3'>
-		</div>
-		<div class='svg-wr  svg-wr--offer'>
-			<svg class='svg  svg-stroke  svg--music'>
-				<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
-			</svg>
-		</div>
-		<h2 class='offer__caption'>Palm party under the palm trees 🌴🌴🌴</h2>
-		<div class='offer__type'>Long Beach</div>
-		<div class='offer__raiting'>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
-			<span class='offer__raiting-value'>(949)</span>
-		</div>
-	</section>
-
+		<section class='offer__box  offer__box--music'>
+			<div class='offer__price'>$350</div>
+			<div class='offer__img-wrapper'>
+				<img class='offer__img' src='img/m3.jpg' alt='Image cute music party 3'>
+			</div>
+			<div class='svg-wr  svg-wr--offer'>
+				<svg class='svg  svg-stroke  svg--music'>
+					<use xlink:href='svg-sprites/sprite-symbol.svg#music'></use>
+				</svg>
+			</div>
+			<h2 class='offer__caption'>Palm party under the palm trees 🌴🌴🌴</h2>
+			<div class='offer__type'>Long Beach</div>
+			<div class='offer__raiting'>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--on"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<svg class="svg-star  svg-star--small  svg-star--off"><use xlink:href="svg-sprites/sprite-symbol.svg#star"/></svg>
+				<span class='offer__raiting-value'>(949)</span>
+			</div>
+		</section>
+	</div>
 	<button class='load-more  offer__load-more' type='submit' value='LoadMore'>Load more →</button>
 </main>
 
@@ -504,7 +505,7 @@
 	</div>
 
 	<div class='services__bid-wrapper'>
-		<div class='services__bid-first'>
+		<div class='services__bid-first  services__bid'>
 			<div class='services__bid-icon'>
 				<div class='svg-wr  svg-wr--services-bid'>
 					<svg class='svg  svg--lightning'>
@@ -518,7 +519,7 @@
 			</div>
 		</div>
 
-		<div class='services__bid-second'>
+		<div class='services__bid-second  services__bid'>
 			<div class='services__bid-icon'>
 				<div class='svg-wr  svg-wr--services-bid'>
 					<svg class='svg  svg--leaf'>
@@ -534,11 +535,12 @@
 	</div>
 </section>
 
+
 <footer class='footer' id='footer-anchor'>
 	<div class='footer__subscribe'>
 		<h2 class='footer__caption'>Subscribe to our newsletter</h2>
 		<form class='footer__form' action='https://echo.htmlacademy.ru' method='post'>
-			<input class='footer__input' type='text' placeholder='your@email.com' />
+			<input class='footer__input' name='sub mail' type='text' placeholder='your@email.com' />
 			<button class='btn  btn-ellipse  btn-ellipse--subscribe' type='submit' value='search'>Subscribe</button>
 			<svg class='svg-button  svg-button--Xmedium  footer__mailbox'><use xlink:href="svg-sprites/sprite-symbol.svg#mailbox"></use></svg>
 		</form>
