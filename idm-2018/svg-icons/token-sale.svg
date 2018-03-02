@@ -1,0 +1,123 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 660" enable-background="new 0 0 1366 660" xml:space="preserve">
+	<line id="line-6" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="187.4" y1="606.5" x2="755.4" y2="606.5"/>
+	<line id="line-5" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="187.4" y1="541" x2="755.4" y2="541"/>
+	<line id="line-4" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="187.4" y1="475.5" x2="755.4" y2="475.5"/>
+	<line id="line-3" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="187.4" y1="409.9" x2="755.4" y2="409.9"/>
+	<line id="line-2" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="187.4" y1="344.4" x2="755.4" y2="344.4"/>
+	<line id="line-1" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="187.4" y1="278.9" x2="755.4" y2="278.9"/>
+	<line id="line-horizontal" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="804.5" y1="250.9" x2="804.5" y2="584.9"/>
+	<line id="line-payment-bottom" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="842.2" y1="606.5" x2="1133.1" y2="606.5"/>
+	<line id="line-payment-top" fill="none" stroke="#7B9BD1" stroke-width="0.4535" stroke-miterlimit="10" x1="842.2" y1="228.2" x2="1133.1" y2="228.2"/>
+	<path id="icon-dollar" fill-rule="evenodd" clip-rule="evenodd" fill="#3E4A68" d="M905.5,538c1.4,0,3-0.2,4.3,0.1
+	c0.7,1.1,0.4,3.7,0.4,5.3c0,0,0.1,0,0.1,0.1c2.7,0,5.4,1.5,7.1,2.7c0.6,0.5,1.4,0.6,1.4,1.7c-0.4,0.4-0.5,1-0.8,1.4
+	c-0.3,0.5-0.7,1.1-1,1.6c-0.3,0.5-0.4,1.3-1.1,1.4c-0.4,0.2-2.4-1.4-3-1.7c-3-1.8-9-1.8-10.3,1.6c-1.2,3.1,2.4,4.9,4.1,5.6
+	c3.9,1.7,9,3,11.3,6.2c0.5,0.7,1,1.8,1.3,2.7c0.6,1.8,0.3,4.4-0.3,5.9c-1.5,3.9-4.3,6.1-8.8,7.1c0,1.6,0,3.3,0,4.9
+	c-0.2,0.2-0.4,0.4-0.5,0.5c-0.8,0-3.7,0.2-4.1-0.1c-0.3-0.1-0.5-0.3-0.5-0.7c-0.2-0.3-0.1-1-0.1-1.4c0-1.1,0-2.2,0-3.3
+	c-0.1,0-0.1,0-0.2,0c-0.6-0.4-2.3-0.5-3.1-0.8c-2-0.7-3.7-1.9-5.3-3c-0.4-0.3-0.9-0.5-1.1-0.9c-0.2-0.2-0.3-0.7-0.2-1.1
+	c0.4-0.8,1.5-1.9,2.1-2.6c0.2-0.3,0.4-0.9,0.8-1.1c0.2-0.2,0.6-0.2,1-0.2c0.3,0.4,0.8,0.7,1.3,1c1.4,1,2.8,1.8,4.6,2.4
+	c0.8,0.2,1.7,0.2,2.5,0.4c0.6,0.1,1.6-0.2,2-0.3c1.9-0.6,2.9-1.3,3.5-3.2c0.1-0.5,0.1-1.4-0.1-1.9c-0.7-1.6-2.2-2.1-3.7-2.9
+	c-3.1-1.6-6.8-2.6-9.5-4.6c-2.1-1.5-4.7-5.3-3.7-9.4c0.2-0.8,0.4-1.7,0.8-2.3c1.7-2.9,4.4-4.8,8.3-5.6c0-1.6,0-3.2,0-4.8
+	c0.1-0.1,0.1-0.1,0.1-0.3C905.1,538.3,905.3,538.1,905.5,538z"/>
+	<g id="icon-dash">
+	<circle id="XMLID_16_" fill="#3E4A68" cx="906.7" cy="489.9" r="23.6"/>
+	<g id="XMLID_56_">
+	<path id="XMLID_15_" fill="#FFFFFF" d="M922.1,483.7c0-0.5-0.2-1-0.5-1.5c-0.2-0.5-0.7-0.8-1.1-1c-0.5-0.2-1.1-0.4-1.6-0.4H898
+	l-1.5,4.5h18.9l-3,9.2h-18.9l-1.5,4.5h21c0.6,0,1.2-0.1,1.8-0.4c0.6-0.3,1.3-0.7,1.8-1.1c0.6-0.4,1.1-0.9,1.5-1.5
+	c0.4-0.5,0.7-1.1,0.9-1.7l2.8-8.7C922.1,484.9,922.2,484.3,922.1,483.7L922.1,483.7z"/>
+	<path id="XMLID_11_" fill="#FFFFFF" d="M903.9,487.8h-11.1l-1.5,4.2h11.3L903.9,487.8z"/>
+	</g>
+	</g>
+	<g id="icon-litecoin">
+	<path id="XMLID_22_" fill="#7B9BD1" d="M930.3,418.1c0,13-10.5,23.6-23.6,23.6c-13,0-23.6-10.5-23.6-23.6c0-13,10.5-23.6,23.6-23.6
+	C919.7,394.5,930.3,405.1,930.3,418.1"/>
+	<path id="XMLID_20_" fill="#7B9BD1" d="M925.3,418.1c0,10.2-8.3,18.6-18.6,18.6c-10.3,0-18.6-8.3-18.6-18.6
+	c0-10.3,8.3-18.6,18.6-18.6C917,399.5,925.3,407.8,925.3,418.1"/>
+	<path id="XMLID_18_" fill="#FFFFFF" d="M905.3,424.4l1.5-5.8l3.6-1.3l0.9-3.4l0-0.1l-3.6,1.3l2.6-9.7h-7.3l-3.4,12.6l-2.8,1
+	l-0.9,3.5l2.8-1l-2,7.4h19.4l1.2-4.6H905.3"/>
+	</g>
+	<g id="icon-ethereum_1_">
+	<g id="XMLID_52_" opacity="0.6">
+	<g id="XMLID_53_">
+		<defs>
+			<rect id="XMLID_34_" x="892.2" y="339" width="28.9" height="15.1"/>
+		</defs>
+
+		<path id="XMLID_33_" clip-path="url(#XMLID_2_)" fill="#0F0F10" d="M906.7,339l-14.5,6.6l14.5,8.5l14.5-8.5L906.7,339z"/>
+	</g>
+	</g>
+	<g id="XMLID_48_" opacity="0.45">
+	<g id="XMLID_49_">
+		<defs>
+			<rect id="XMLID_32_" x="892.2" y="321.6" width="14.5" height="32.6"/>
+		</defs>
+		<path id="XMLID_31_" clip-path="url(#XMLID_3_)" fill="#0F0F10" d="M892.2,345.6l14.5,8.5v-32.6L892.2,345.6z"/>
+	</g>
+	</g>
+	<g id="XMLID_44_" opacity="0.8">
+	<g id="XMLID_45_">
+		<defs>
+			<rect id="XMLID_30_" x="906.7" y="321.6" width="14.5" height="32.6"/>
+		</defs>
+		<path id="XMLID_29_" clip-path="url(#XMLID_4_)" fill="#0F0F10" d="M906.7,321.6v32.6l14.5-8.5L906.7,321.6z"/>
+	</g>
+	</g>
+	<g id="XMLID_40_" opacity="0.45">
+	<g id="XMLID_41_">
+		<defs>
+			<rect id="XMLID_28_" x="892.2" y="348.4" width="14.5" height="20.4"/>
+		</defs>
+		<path id="XMLID_27_" clip-path="url(#XMLID_5_)" fill="#0F0F10" d="M892.2,348.4l14.5,20.4v-11.8L892.2,348.4z"/>
+	</g>
+	</g>
+	<g id="XMLID_36_" opacity="0.8">
+	<g id="XMLID_37_">
+		<defs>
+			<rect id="XMLID_25_" x="906.7" y="348.4" width="14.5" height="20.4"/>
+		</defs>
+		<path id="XMLID_24_" clip-path="url(#XMLID_6_)" fill="#0F0F10" d="M906.7,356.9v11.8l14.5-20.4L906.7,356.9z"/>
+	</g>
+	</g>
+	</g>
+	<g id="icon-bitcoin">
+	<path id="XMLID_42_" fill="#3E4A68" d="M929.6,280.2c-3.1,12.6-15.9,20.3-28.6,17.2c-12.6-3.1-20.3-15.9-17.2-28.6
+	c3.1-12.6,15.9-20.3,28.6-17.2C925,254.8,932.7,267.6,929.6,280.2L929.6,280.2z"/>
+	<path id="XMLID_46_" fill="#FFFFFF" d="M917.1,271.1c0.5-3.1-1.9-4.8-5.2-5.9l1.1-4.2l-2.6-0.6l-1,4.1c-0.7-0.2-1.4-0.3-2.1-0.5
+		l1-4.2l-2.6-0.6l-1.1,4.2c-0.6-0.1-1.1-0.3-1.7-0.4l0,0l-3.6-0.9l-0.7,2.8c0,0,1.9,0.4,1.9,0.5c1,0.3,1.2,1,1.2,1.5l-1.2,4.8
+		c0.1,0,0.2,0,0.3,0.1l-0.3-0.1l-1.7,6.8c-0.1,0.3-0.5,0.8-1.2,0.6c0,0-1.9-0.5-1.9-0.5l-1.3,3l3.4,0.8c0.6,0.2,1.2,0.3,1.8,0.5
+		l-1.1,4.3l2.6,0.6l1.1-4.3c0.7,0.2,1.4,0.4,2.1,0.5l-1.1,4.2l2.6,0.6l1.1-4.3c4.4,0.8,7.7,0.5,9.1-3.5c1.1-3.2-0.1-5.1-2.4-6.3
+		C915.5,274.5,916.8,273.4,917.1,271.1L917.1,271.1z M911.2,279.4c-0.8,3.2-6.2,1.5-8,1l1.4-5.7C906.4,275.2,912,276.1,911.2,279.4
+		L911.2,279.4z M912,271.1c-0.7,2.9-5.2,1.4-6.7,1.1l1.3-5.2C908.1,267.4,912.8,268,912,271.1z"/>
+	</g>
+	<g id="main-text-layer">
+		<text id="XMLID_361_" transform="matrix(1 0 0 1 187.3808 255.2334)">
+			<tspan x="0" y="0" fill="#101924" font-family="'PT Sans Narrow'" font-size="19.8351px">Максимальная цель: </tspan>
+			<tspan x="0" y="65.5" fill="#101924" font-family="'PT Sans Narrow'" font-size="19.8351px">Нижняя граница сбора средств:</tspan>
+			<tspan x="0" y="130.9" fill="#101924" font-family="'PT Sans Narrow'" font-size="19.8351px">Токен:</tspan>
+			<tspan x="0" y="196.4" fill="#101924" font-family="'PT Sans Narrow'" font-size="19.8351px">1 токен:</tspan>
+			<tspan x="0" y="261.8" fill="#101924" font-family="'PT Sans Narrow'" font-size="19.8351px">Обменный курс токена:</tspan>
+			<tspan x="0" y="327.3" fill="#101924" font-family="'PT Sans Narrow'" font-size="19.8351px">Протокол проекта:</tspan>
+		</text>
+		<text id="XMLID_8_" transform="matrix(1 0 0 1 964.7474 277.3887)">
+			<tspan x="0" y="0" fill="#101924" font-family="'PT Sans Narrow'" font-size="22.2951px">BTC</tspan>
+			<tspan x="0" y="73.6" fill="#101924" font-family="'PT Sans Narrow'" font-size="22.2951px">ETH</tspan>
+			<tspan x="0" y="147.1" fill="#101924" font-family="'PT Sans Narrow'" font-size="22.2951px">Litecoin</tspan>
+			<tspan x="0" y="220.7" fill="#101924" font-family="'PT Sans Narrow'" font-size="22.2951px">Dash</tspan>
+			<tspan x="0" y="294.3" fill="#101924" font-family="'PT Sans Narrow'" font-size="22.2951px">Банковский перевод</tspan>
+		</text>
+
+		<text id="_x31_900_ETH___2.000.000__x24__470__ETH_-_500.000__x24__IDMCoin_0.01_ETH_1_ETH__x3D__100_токенов_IDMCoin_ERC20" transform="matrix(1 0 0 1 488.0258 255.2334)">
+			<tspan x="0" y="0" fill="#7B9BD1" font-family="'PT Sans Narrow'" font-weight="700" font-size="19.8351px">1900 ETH 2.000.000 $</tspan>
+			<tspan x="0" y="65.5" fill="#7B9BD1" font-family="'PT Sans Narrow'" font-weight="700" font-size="19.8351px">470 ETH - 500.000 $</tspan>
+			<tspan x="0" y="130.9" fill="#7B9BD1" font-family="'PT Sans Narrow'" font-weight="700" font-size="19.8351px">IDMCoin</tspan>
+			<tspan x="0" y="196.4" fill="#7B9BD1" font-family="'PT Sans Narrow'" font-weight="700" font-size="19.8351px">0.01 ETH</tspan>
+			<tspan x="0" y="261.8" fill="#7B9BD1" font-family="'PT Sans Narrow'" font-weight="700" font-size="19.8351px">1 ETH = 100 токенов IDMCoin</tspan>
+			<tspan x="0" y="327.3" fill="#7B9BD1" font-family="'PT Sans Narrow'" font-weight="700" font-size="19.8351px">ERC20</tspan>
+		</text>
+
+		<text id="payment" transform="matrix(1 0 0 1 879.5737 198.3975)" fill="#101924" font-family="'PT Sans Narrow'" font-weight="700" font-size="26.7541px">Способы оплаты</text>
+
+		<text id="XMLID_382_" transform="matrix(1 0 0 1 368.1595 117.7521)" fill="#7B9BD1" font-family="'PT Sans Narrow'" font-weight="700" font-size="22px">Начало: 16 апреля 2018, понедельник, 11:00 утра (GMT)</text>
+
+		<text id="XMLID_290_" transform="matrix(1 0 0 1 444.6093 65.8195)" fill="#101924" font-family="'PT Sans Narrow'" font-weight="700" font-size="31px">Продажа токенов на Pre ICO</text>
+	</g>
+</svg>
