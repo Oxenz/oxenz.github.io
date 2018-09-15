@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Main page fixed Barbershop</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style-new.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+	<header class="main-header">
+		<div class="container clearfix">
+			<nav class="main-navigation">
+				<ul>
+					<li>
+						<a href="#">Информация</a>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+					</li>
+					<li>
+						<a href="/barbershop-2017/inner-price.html">Прайс-лист</a>
+					</li>
+					<li>
+						<a href="/barbershop-2017/inner-shop.html">Магазин</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a class="login">Вход</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="container">
+		<div class="main-logo">
+			<img src="img/borodinskiy-logo.png" alt="cite-logo" width="368" height="204">
+		</div>
+
+		<section class="features clearfix">
+			<div class="feature-item">
+				<h2 class="feature-name">
+					Быстро
+				</h2>
+				<p>
+					Мы делаем свою работу быстро! Два часа пролетят незаметно и вы − счастливый обладатель стильной стрижки-минутки!
+				</p>
+			</div>
+			<div class="feature-item">
+				<h2 class="feature-name">
+					Круто
+				</h2>
+				<p>
+					Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.
+				</p>
+			</div>
+			<div class="feature-item">
+				<h2 class="feature-name">
+					Дорого
+				</h2>
+				<p>
+					Наши мастера − профессионалы своего дела и не могут строить дешево. К тому же, разве цена не дает определенный статус?
+				</p>
+			</div>
+		</section>
+
+		<div class="index-content clearfix">
+			<div class="index-content-left">
+				<h2 class="index-content-title">Новости</h2>
+				<ul class="news-preview">
+					<li>
+						<p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+						<time datetime="2016-01-11">11 января</time>
+					</li>
+					<li>
+						<p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+						<time datetime="2016-01-18">18 января</time>
+					</li>
+				</ul>
+				<a href="#" class="btn">Все новости</a>
+			</div>
+			<div class="index-content-right">
+				<h2 class="index-content-title">фотогалерея</h2>
+				<div class="gallery">
+					<figure class="gallery-content">
+						<img src="img/gallery-1.jpg" alt="Фото слайдера" width="286" height="164">
+					</figure>
+					<button class="btn gallery-back" type="button">Назад</button>
+					<button class="btn gallery-next" type="button">Вперед</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="index-content clearfix">
+			<div class="index-content-left">
+				<h2 class="index-content-title">Контактная информация</h2>
+				<p>
+				Барбершоп «Бородинский» Адрес:<br>
+				г. Санкт-петербург, Б.Конюшенная, д. 19/8<br>
+				телефон: +7(495) 666-02-66
+				</p>
+				<p>
+				Время работы:<br>
+				Пн - Пт: c 10:00 до 22:00<br>
+				Cб - Вс: c 10:00 до 19:00
+				</p>
+				<a href="#" class="btn btn-map">Как проехать</a>
+				<a href="#" class="btn">Обратная связь</a>
+			</div>
+			<div class="index-content-right">
+				<h2 class="index-content-title">Записаться</h2>
+				<p>Укажите желаемую дату и время и мы свяжемься с вами для подтверждения брони</p>
+				<form class="appointment-form" method="post" action="https://echo.htmlacademy.ru" >
+					<input type="text" name="data" placeholder="Дата">
+					<input type="text" name="time" placeholder="Время">
+					<input type="text" name="name" placeholder="Ваше имя">
+					<input type="tel" name="phone" placeholder="Телефон">
+					<button class="btn" type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer class="main-footer">
+		<div class="container clearfix">
+			<section class="footer-contacts">
+				<p>
+					Барбершоп "Бородинский"<br> Адрес: г. Санкт-петербург, Б.Конюшенная, д. 19/8<br> <a href="#">Как нас найти?</a><br> Телефон: +7 (495) 666-02-66
+				</p>
+			</section>
+			<section class="footer-social">
+				<p>
+					Давайте дружить!
+				</p>
+				<a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+				<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+				<a href="#" class="social-btn social-btn-in">Инстаграм</a>
+			</section>
+			<section class="footer-copyright">
+				<p>
+					Разработано:
+				</p>
+				<a href="mailto:freelancepurework@gmail.com" class="btn btn-copyright">pure@home</a>
+			</section>
+		</div>
+	</footer>
+
+	<div class="modal-login">
+		<button class="modal-close close1" type="button" title="Закрыть"></button>
+		<h2>Личный кабинет</h2>
+		<form class="modal-form" method="post" action="https://echo.htmlacademy.ru">
+			<legend>Введите пожалуйста свой логин и пароль</legend>
+			<input type="text" class="login-user" name="login" placeholder="ЛОГИН">
+			<input type="password" class="login-password" name="password" placeholder="ПАРОЛЬ">
+			<div class="forgot-wrapper">
+				<label class="forgot-checkbox">
+					<input type="checkbox" name="remember">
+					<span class="remember-mark">Запомните меня</span>
+				</label>
+				<a href="#" class="recovery-password">Я забыл пароль!</a>
+			</div>
+			<button type="submit" class="btn">Войти</button>
+		</form>
+	</div>
+
+	<div class="modal-map">
+		<button type="button" title="Закрыть" class="modal-close close2"></button>
+		<div class="static-map">
+			<img src="img/static-map.jpg" alt="static-map" width="766" height="560">
+		</div>
+		<div id="yandex-map"></div>
+	</div>
+
+	<div class="modal-overlay"></div>
+	<script src='js/all.js'></script>
+</body>
+</html>
